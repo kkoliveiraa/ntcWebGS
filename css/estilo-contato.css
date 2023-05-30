@@ -110,3 +110,29 @@ button{
         flex-basis: 100%;
     }
 }
+
+/* Consulta de mídia para celulares menores */
+@media (max-width: 375px) {
+    .content {
+        max-width: 300px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .box {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .image-container img {
+        flex-basis: 100%;
+    }
+
+}
+
