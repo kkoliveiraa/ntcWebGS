@@ -26,7 +26,7 @@
     min-height: 100%;
 }
 
-.mensagem {
+.mensagem h1 {
     text-align: center;
 }
 
@@ -65,8 +65,27 @@ button{
     cursor: pointer;
 }
 
-@media screen {
-    
+@media (max-width: 1024px) {
+    .content {
+        max-width: 600px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .box {
+        font-size: 16px;
+    }
+
+    .image-container img {
+        flex-basis: 100%;
+    }
 }
+
 
 
