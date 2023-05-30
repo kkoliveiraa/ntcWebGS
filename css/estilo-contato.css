@@ -1,2 +1,7 @@
 @import url("../css/cabecalho.css");
 @import url("../css/rodape.css");
+
+.mensagem {
+    text-align: center;
+}
+
