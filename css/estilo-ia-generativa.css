@@ -52,3 +52,26 @@ img {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* Consulta de mídia para tablets */
+@media (max-width: 1024px) {
+    .content {
+        max-width: 600px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .box {
+        font-size: 16px;
+    }
+
+    .image-container img {
+        flex-basis: 100%;
+    }
+}
