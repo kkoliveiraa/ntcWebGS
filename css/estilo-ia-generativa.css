@@ -75,3 +75,27 @@ img {
         flex-basis: 100%;
     }
 }
+
+/* Consulta de mídia para celulares */
+@media (max-width: 768px) {
+    .content {
+        max-width: 400px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .box {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .image-container img {
+        flex-basis: 100%;
+    }
+}
