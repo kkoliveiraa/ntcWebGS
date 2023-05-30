@@ -1,6 +1,25 @@
 @import url("../css/cabecalho.css");
 @import url("../css/rodape.css");
 
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .mensagem {
     text-align: center;
 }
@@ -15,8 +34,12 @@ section{
     
 }
 
-section form{
-
+input{
+    min-width: 320px;
+    display: block;
+    margin: 0 2vw;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
 }
 
 
