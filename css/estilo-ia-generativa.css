@@ -6,3 +6,48 @@
     padding: 0;
     font-family: "Arial", sans-serif;
 }
+
+.title {
+    font-size: 64px; /* Aumente o tamanho da fonte para 64px */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-family: "Times New Roman", serif; /* Altere a família da fonte desejada */
+}
+
+.subtitle {
+    font-size: 36px; /* Aumente o tamanho da fonte para 36px */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-family: "Times New Roman", serif; /* Altere a família da fonte desejada */
+    text-align: center;
+}
+
+.box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "Times New Roman", serif; /* Altere a família da fonte desejada */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adicione sombra ao texto */
+    font-size: 18px; /* Aumente o tamanho da fonte para 18px */
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 16px; /* Aumente o tamanho da fonte para 16px */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
