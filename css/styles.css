@@ -134,3 +134,64 @@ img {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* Estilos do rodapé */
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-content {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.team-members {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team-members li {
+    margin-bottom: 15px;
+    display: flex; /* Adiciona flexbox para centralizar os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+}
+
+.team-members .member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-members img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.team-members .member-info {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.team-members .member-name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-members .member-rm {
+    color: #999999;
+}
