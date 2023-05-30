@@ -1,0 +1,213 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+/* Estilos do vídeo de fundo */
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* Estilos do header*/
+.site-header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.site-nav ul li {
+    margin-right: 15px;
+}
+
+.site-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.site-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.site-nav ul li a:hover {
+    color: #08963e95;
+}
+
+.site-nav ul li {
+    margin-right: 15px;
+    border-right: 1px solid #333;
+    padding-right: 15px;
+}
+
+.site-nav ul li:last-child {
+    margin-right: 0;
+    border-right: none;
+    padding-right: 0;
+}
+
+/* Estilos do conteúdo */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Estilos do título */
+.title {
+    font-size: 64px; /* Aumente o tamanho da fonte para 64px */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-family: "Times New Roman", serif; /* Altere a família da fonte desejada */
+}
+
+/* Estilos do subtítulo */
+.subtitle {
+    font-size: 36px; /* Aumente o tamanho da fonte para 36px */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-family: "Times New Roman", serif; /* Altere a família da fonte desejada */
+}
+
+/* Estilos das caixas de texto */
+.box {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/18/11/abstract-1846942_1280.jpg");
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "Times New Roman", serif; /* Altere a família da fonte desejada */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adicione sombra ao texto */
+    font-size: 18px; /* Aumente o tamanho da fonte para 18px */
+}
+
+/* Estilos dos parágrafos */
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 16px; /* Aumente o tamanho da fonte para 16px */
+}
+
+/* Estilização das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos do rodapé */
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-content {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.team-members {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team-members li {
+    margin-bottom: 15px;
+    display: flex; /* Adiciona flexbox para centralizar os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+}
+
+.team-members .member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-members img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.team-members .member-info {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.team-members .member-name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-members .member-rm {
+    color: #999999;
+}
+
+/* Novos estilos para as imagens ao lado dos boxes */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-container img {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
