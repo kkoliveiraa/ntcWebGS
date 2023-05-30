@@ -5,3 +5,19 @@
     text-align: center;
 }
 
+section{
+    display: flex;
+    background-color: blueviolet;
+    width: 40vw;
+    border-radius: 5px;
+    min-width: 350px;
+    margin: 2vw auto;
+    
+}
+
+section form{
+
+}
+
+
+
