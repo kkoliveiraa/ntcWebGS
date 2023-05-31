@@ -52,3 +52,13 @@
     text-align: center;
 }
 
+.box {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/18/11/abstract-1846942_1280.jpg");
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    font-family: "Times New Roman", serif;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
