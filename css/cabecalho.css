@@ -4,32 +4,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .logo {
-    width: 150px;
-    height: auto;
+    width: 20vw;
 }
 
-.site-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+nav ul {
     display: flex;
+    font-size: 9px;
+    background-color: #f2f2f2;
 }
 
-.site-nav ul li {
+nav ul li{
     margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
 }
-
-.site-nav ul li:last-child {
-    margin-right: 0;
-}
-
-.site-nav ul li a {
+nav ul li a{
     text-decoration: none;
-    color: #333;
     font-weight: bold;
+    color: black;
 }
 
 .site-nav ul li a:hover {
@@ -37,7 +36,7 @@
 }
 
 .site-nav ul li {
-    margin-right: 15px;
+    margin-right: 12px;
     border-right: 1px solid #333;
     padding-right: 15px;
 }
@@ -46,4 +45,23 @@
     margin-right: 0;
     border-right: none;
     padding-right: 0;
+}
+
+@media (max-width: 1500px){
+    nav ul {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 700px){
+    nav ul {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 450px){
+    nav ul {
+        font-size: 6px;
+    }
 }
