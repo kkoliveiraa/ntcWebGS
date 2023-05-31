@@ -32,3 +32,13 @@
     padding: 20px;
     color: white;
 }
+
+.title {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: 'Times New Roman', serif;
+}
+
