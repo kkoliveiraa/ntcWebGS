@@ -1,2 +1,142 @@
 @import url("../css/cabecalho.css");
 @import url("../css/rodape.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.mensagem h1 {
+    text-align: center;
+}
+
+section{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/18/11/abstract-1846942_1280.jpg");
+    display: flex;
+    width: 40vw;
+    border-radius: 5px;
+    min-width: 350px;
+    margin: 2vh auto;
+    
+}
+
+label {
+    color: white;
+}
+
+input{
+    min-width: 320px;
+    display: block;
+    margin: 0 5vw;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    height: 35px;
+    width: 400px;
+}
+
+textarea {
+    height: 150px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 0 5vw;
+}
+
+button{
+    display: block;
+    margin: 10vh 15vw;
+    height: 5vh;
+    width: 15vw;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .content {
+        max-width: 600px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .box {
+        font-size: 16px;
+    }
+
+    .image-container img {
+        flex-basis: 100%;
+    }
+}
+
+/* Consulta de mídia para celulares */
+@media (max-width: 768px) {
+    .content {
+        max-width: 400px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .box {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .image-container img {
+        flex-basis: 100%;
+    }
+}
+
+/* Consulta de mídia para celulares menores */
+@media (max-width: 375px) {
+    .content {
+        max-width: 300px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .box {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .image-container img {
+        flex-basis: 100%;
+    }
+
+}
+

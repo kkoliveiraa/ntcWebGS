@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,11 @@
     <title>Entre em contato conosco</title>
 </head>
 <body>
-
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="../vd/video-fundo-index.mp4" type="video/mp4">
+        </video>
+    </div>
     <header class="site-header">
         <img src="../img/logo.jpg" alt="Logo da Empresa" class="logo">
         <nav class="site-nav">
@@ -19,10 +23,47 @@
                 <li><a href="../pages/contato.html">Contato</a></li>
                 <li><a href="../pages/organograma.html">Organograma</a></li>
             </ul>
-        </nav>
     </header>
 
-    <h1>Estamos aqui para responder às suas perguntas, fornecer informações adicionais e ouvir seus comentários. Por favor, preencha o formulário abaixo para entrar em contato conosco. Faremos o possível para responder o mais rápido possível.</h1>
+    <div class="mensagem">
+        <h1>Estamos aqui para responder às suas perguntas, fornecer informações adicionais e ouvir seus comentários. <br>Por favor, preencha o formulário abaixo para entrar em contato conosco. Faremos o possível para responder o mais rápido possível.</h1>
+    </div>
+
+    <section>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="nome"><br><br>
+    
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required placeholder="sobrenome"><br><br>
+    
+            <label for="email">Endereço de E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="email"><br><br>
+            
+            <label for="telefone">Número de Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required placeholder="Telefone"><br><br>
+    
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required placeholder="Assunto"><br><br>
+    
+            <label for="pais">País:</label>
+            <input type="text" id="pais" name="pais" required placeholder="País"><br><br>
+            
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required placeholder="Estado" ><br><br>
+    
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required placeholder="Cidade"><br><br>
+            
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required placeholder="CEP" ><br><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required placeholder="Menssagem"></textarea><br><br>
+
+            <button type="submit">ENVIAR</button>
+        </form>
+    </section>
 
     <footer>
         <div class="footer-content">
