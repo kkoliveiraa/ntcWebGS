@@ -1,3 +1,7 @@
+@import url("../css/cabecalho.css");
+@import url("../css/rodape.css");
+
+
 /* Estilos globais */
 * {
     margin: 0;
@@ -25,57 +29,6 @@
     min-height: 100%;
 }
 
-
-/* Estilos do header*/
-.site-header {
-    background-color: #f2f2f2;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    width: 150px;
-    height: auto;
-}
-
-.site-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.site-nav ul li {
-    margin-right: 15px;
-}
-
-.site-nav ul li:last-child {
-    margin-right: 0;
-}
-
-.site-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.site-nav ul li a:hover {
-    color: #08963e95;
-}
-
-.site-nav ul li {
-    margin-right: 15px;
-    border-right: 1px solid #333;
-    padding-right: 15px;
-}
-
-.site-nav ul li:last-child {
-    margin-right: 0;
-    border-right: none;
-    padding-right: 0;
-}
 
 /* Estilos do conteúdo */
 .content {
@@ -131,82 +84,6 @@ img {
     height: auto;
     display: block;
     margin: 10px auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Estilos do rodapé */
-
-
-footer {
-    padding: 20px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.footer-content {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.team-members {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.team-members li {
-    margin-bottom: 15px;
-    display: flex; /* Adiciona flexbox para centralizar os elementos */
-    align-items: center; /* Centraliza verticalmente os elementos */
-}
-
-.team-members .member-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-right: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.team-members img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-}
-
-.team-members .member-info {
-    margin-top: 5px;
-    text-align: center;
-}
-
-.team-members .member-name {
-    font-weight: bold;
-    text-align: center;
-}
-
-.team-members .member-rm {
-    color: #999999;
-}
-
-/* Novos estilos para as imagens ao lado dos boxes */
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.image-container img {
-    flex-basis: calc(50% - 10px);
-    margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
