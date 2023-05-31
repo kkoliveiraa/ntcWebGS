@@ -1,13 +1,13 @@
 @import url("../css/cabecalho.css");
 @import url("../css/rodape.css");
 
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: "Arial", sans-serif;
 }
 
-.video-background {
+.video-background{
     position: fixed;
     top: 0;
     right: 0;
@@ -15,9 +15,9 @@
     left: 0;
     overflow: hidden;
     z-index: -1;
-}
 
-.video-background video {
+}
+.video-background video{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,7 +26,7 @@
     min-height: 100%;
 }
 
-.site-header {
+.site-header{
     background-color: #f2f2f2;
     padding: 20px;
     display: flex;
@@ -34,56 +34,52 @@
     align-items: center;
 }
 
-.logo {
-    width: 150px;
+.logo{
+    width:150px;
     height: auto;
 }
 
-.site-nav ul {
+.site-nav ul{
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.site-nav ul li {
+.site-nav ul li{
     margin-right: 15px;
 }
 
-.site-nav ul li:last-child {
+.site-nav ul li:last-child{
     margin-right: 0;
 }
 
 .site-nav ul li a {
     text-decoration: none;
-    color: #333;
+    color:#333;
     font-weight: bold;
 }
 
-.site-nav ul li a:hover {
-    color: #08963e95;
-}
-
-.site-nav ul li {
+.site-nav ul li{
     margin-right: 15px;
     border-right: 1px solid #333;
     padding-right: 15px;
 }
 
-.site-nav ul li:last-child {
+.site-nav ul li:last-child{
     margin-right: 0;
     border-right: none;
     padding-right: 0;
 }
 
-.content {
+.content{
     max-width: 800px;
-    margin: 0 auto;
+    margin:0 auto;
     padding: 20px;
-    color: white;
+    color:  white;
 }
 
-.title {
+.title{
     font-size: 64px;
     text-align: center;
     margin-bottom: 20px;
@@ -92,35 +88,32 @@
     font-family: 'Times New Roman', serif;
 }
 
-.subtitle {
+.subtitle{
     font-size: 36px;
     margin-top: 30px;
     margin-bottom: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    color: white;
+    color:white;
     font-family: "Times New Roman", serif;
-    text-align: center;
+    text-align:center;
 }
 
-.box {
+.box{
     background-image: url("https://cdn.pixabay.com/photo/2016/11/21/18/11/abstract-1846942_1280.jpg");
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
-    font-family: "Times New Roman", serif;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     font-size: 18px;
 }
 
-p {
+p{
     margin-top: 0;
     margin-bottom: 10px;
     line-height: 1.5;
-    font-size: 16px;
+    font-size:16px;
 }
-
-img {
+img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -129,87 +122,16 @@ img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.image-container {
+.image-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.image-container img {
+.image-container img{
     flex-basis: calc(50% - 10px);
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Consulta de mídia para tablets */
-@media (max-width: 1024px) {
-    .content {
-        max-width: 60%;
-    }
-
-    .title {
-        font-size: 4vw;
-    }
-
-    .subtitle {
-        font-size: 2.4vw;
-    }
-
-    .box {
-        font-size: 1.6vw;
-    }
-
-    .image-container img {
-        flex-basis: 100%;
-    }
-}
-
-/* Consulta de mídia para celulares */
-@media (max-width: 768px) {
-    .content {
-        max-width: 50%;
-    }
-
-    .title {
-        font-size: 4.5vw;
-    }
-
-    .subtitle {
-        font-size: 2.5vw;
-    }
-
-    .box {
-        font-size: 1.75vw;
-        padding: 1vw;
-    }
-
-    .image-container img {
-        flex-basis: 100%;
-    }
-}
-
-/* Consulta de mídia para celulares menores */
-@media (max-width: 375px) and (max-height: 490px) {
-    .content {
-        max-width: 80%;
-    }
-
-    .title {
-        font-size: 7vw;
-    }
-
-    .subtitle {
-        font-size: 4vw;
-    }
-
-    .box {
-        font-size: 2.5vw;
-        padding: 2vw;
-    }
-
-    .image-container img {
-        flex-basis: 100%;
-    }
 }
