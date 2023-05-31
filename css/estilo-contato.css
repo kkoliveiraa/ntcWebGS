@@ -28,6 +28,7 @@
 
 .mensagem h1 {
     text-align: center;
+    color: white;
 }
 
 section{
@@ -116,7 +117,7 @@ button{
 }
 
 /* Consulta de mídia para celulares menores */
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     .content {
         max-width: 300px;
     }
@@ -136,6 +137,14 @@ button{
 
     .image-container img {
         flex-basis: 100%;
+    }
+
+    input{
+        width: 200px;
+    }
+
+    textarea {
+        width: 300px;
     }
 
 }
