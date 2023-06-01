@@ -91,19 +91,19 @@ img {
 /* Consulta de mídia para tablets */
 @media (max-width: 1024px) {
     .content {
-        max-width: 600px;
+        max-width: 60%;
     }
 
     .title {
-        font-size: 48px;
+        font-size: 4vw;
     }
 
     .subtitle {
-        font-size: 24px;
+        font-size: 2.4vw;
     }
 
     .box {
-        font-size: 16px;
+        font-size: 1.6vw;
     }
 
     .image-container img {
@@ -114,20 +114,20 @@ img {
 /* Consulta de mídia para celulares */
 @media (max-width: 768px) {
     .content {
-        max-width: 400px;
+        max-width: 50%;
     }
 
     .title {
-        font-size: 36px;
+        font-size: 4.5vw;
     }
 
     .subtitle {
-        font-size: 20px;
+        font-size: 2.5vw;
     }
 
     .box {
-        font-size: 14px;
-        padding: 10px;
+        font-size: 1.75vw;
+        padding: 1vw;
     }
 
     .image-container img {
@@ -138,20 +138,20 @@ img {
 /* Consulta de mídia para celulares menores */
 @media (max-width: 375px) and (max-height: 490px) {
     .content {
-        max-width: 300px;
+        max-width: 80%;
     }
 
     .title {
-        font-size: 28px;
+        font-size: 7vw;
     }
 
     .subtitle {
-        font-size: 16px;
+        font-size: 4vw;
     }
 
     .box {
-        font-size: 12px;
-        padding: 10px;
+        font-size: 2.5vw;
+        padding: 2vw;
     }
 
     .image-container img {
