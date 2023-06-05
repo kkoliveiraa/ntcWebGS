@@ -90,6 +90,10 @@ button{
     .image-container img {
         flex-basis: 100%;
     }
+
+    .site-header img{
+        margin-left: 35vw;
+    }
 }
 
 /* Consulta de mídia para celulares */
@@ -113,6 +117,10 @@ button{
 
     .image-container img {
         flex-basis: 100%;
+    }
+
+    .site-header img{
+        margin-left: 35vw;
     }
 }
 
@@ -145,6 +153,10 @@ button{
 
     textarea {
         width: 300px;
+    }
+
+    .site-header img{
+        margin-left: 35vw;
     }
 
 }
