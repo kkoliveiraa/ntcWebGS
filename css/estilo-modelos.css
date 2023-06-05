@@ -159,3 +159,48 @@ img{
     }
 
 }
+
+/*celulares*/
+@media (max-width: 768px){
+    .content{
+        max-width: 50%;
+
+    }
+    .title {
+        font-size: 4.5vw;
+    }
+
+    .subtitle {
+        font-size: 2.5vw;
+    }
+    .box {
+        font-size: 1.75vw;
+        padding: 1vw;
+    }
+    .image-container img {
+        flex-basis: 100%;
+    }
+
+}
+
+/*celulares menores*/
+
+@media (max-width: 375px) and (max-height: 490px){
+    .content{
+        max-width: 80%;
+    }
+
+    .title{
+        font-size: 7vw;
+    }
+    .subtitle{
+        font-size: 4vw;
+    }
+    .box{
+        font-size: 2.5vw;
+        padding: 2vw;
+    }
+    .image-container img{
+        flex-basis: 100%;
+    }
+}
